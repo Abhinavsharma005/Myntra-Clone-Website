@@ -1,4 +1,4 @@
 This is a simple Myntra website clone created while practicing HTML & CSS.
-Javascript functionality will be added later
+Later Javascript functionality will be added 
 
 Website link- https://abhinavsharma005.github.io/Myntra-Clone-Website/
