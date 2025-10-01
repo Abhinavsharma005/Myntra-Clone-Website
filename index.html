@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      <title>Myntra Clone</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
@@ -13,6 +13,7 @@
             <a href="a">Men</a>
             <a href="a">Women</a>
             <a href="a">Kids</a>
+            <a href="a">Home</a>
             <a href="a">Beauty</a>
             <a href="a">GenZ</a>
             <a href="a">Studio <sup>new</sup></a>
@@ -35,17 +36,20 @@
             </div>
         
         
-            <div class="action_container">
+            <a class="action_container" href="pages/bag.html">
                 <span class="material-symbols-outlined action_icon">shopping_bag</span>
                 <span class="action_name">Bag</span>
-            </div>
+                <span class="bag-item-count">0</span>
+            </a>
         </div>
 
     </header>
     <main>
-        <div class="banner_container">
-            <img class="banner_image" src="images/banner.jpg" alt="Main Banner">
+        <div class="items-container">
         </div>
+        <!-- <div class="banner_container">
+            <img class="banner_image" src="images/banner.jpg" alt="Main Banner">
+        </div> -->
         <div class="category_heading">MEDAL WORTHY BRANDS TO BAG</div>
         <div class="category_items">
             <a href="a"><img 
@@ -145,5 +149,7 @@
 
         </div>
     </footer>
+    <script src="data/items.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
